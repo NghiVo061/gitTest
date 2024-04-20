@@ -140,12 +140,12 @@ namespace UploadGoogleDrive
             return file.Id;
         }
 
-        /*public static void Signout(string localusername)
+        public static void Signout(string localusername)
         {
             string fileSave = string.Format("{0}\\{1}", _fileDataStore.FolderPath, "Google.Apis.Auth.OAuth2.Responses.TokenResponse-" + localusername);
             if (System.IO.File.Exists(fileSave))
                 System.IO.File.Delete(fileSave);
-        }*/
+        }
 
         public string GetLinkFile(string fileId)
         {
