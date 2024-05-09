@@ -53,15 +53,6 @@ const Test1 = () => {
             }
             } />&nbsp;Đồng Nai&nbsp;
 
-            <input type="checkbox" onChange={(e) => {
-                if (e.currentTarget.checked) {
-                    setMyProvince([...myProvinces, 'Khanh Hoa']);
-                }
-                else {
-                    setMyProvince(myProvinces.filter(province => province !== 'Khanh Hoa'));
-                }
-            }
-            } />&nbsp;Khánh Hòa&nbsp;
 
             <input type="checkbox" onChange={(e) => {
                 if (e.currentTarget.checked) {
